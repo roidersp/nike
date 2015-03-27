@@ -759,9 +759,7 @@ background-size: cover;
 	
 		
 	
-	.indepth_parallax_back{
-		background-attachment: initial;
-	}
+
 	
 	.indepth_break .indepth_title{
 		font-size:46px;
@@ -966,14 +964,12 @@ font-size: 25px;
 }
 
 @media screen and (max-width: 1024px) and (max-height: 768px){
-	.indepth_parallax_back{
-		background-attachment: initial;
-	}
+
 }
 
 @media screen and (max-height: 1024px) and (max-width: 768px){
 	.indepth_parallax_back{
-		background-attachment: initial;
+		
 	}
 }
 
