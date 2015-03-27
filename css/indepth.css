@@ -323,7 +323,9 @@ background-size:  auto 100%;
 }
 
 
-
+.indepth_texto_movil{
+	display: none;
+}
 
 .indepth_break .indepth_parallax_back {
 background-size: cover;
@@ -586,17 +588,34 @@ background-size: cover;
 	.editor_picture{
 		top: -15px;
 	}
-
-	
-	
-}
-
-@media screen and (max-width: 605px) {
-	#indepth_cover .indepth_parallax_back{
-		background-size: cover;
+	.indepth_parallax_back{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 	}
+	
+	.indepth_texto_imag{
+		display: none;
+	}
+	
+	.indepth_texto_movil{
+		display: table;
+		width: 100%;
+	}
+	
+	.indepth_texto_movil img{
+		width: 100%;
+		display: table;
+	}
+
+}
+
+@media screen and (max-width: 605px) {
+	.indepth_parallax_back{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+	}
+	
+	
 		
 	.indepth_break {
 		max-height: 500px;
