@@ -28,6 +28,67 @@
 	background: white;
 }
 
+.indepth_share{
+		position: fixed;
+		right: 15px;
+		bottom: 20px;
+		z-index: 2000;
+		display: -webkit-inline-box;
+     display: -webkit-inline-flex;
+   display: -moz-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+		
+	}
+	
+	#drag{
+		display: none;
+		right: 3px;
+		top: 8px;
+		z-index: 2000;
+		
+	}
+	
+	.indepth_share_item{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: rgba(0, 0, 0, 0.4);
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
+		margin-bottom: 5px;
+	}
+	
+	.indepth_share_item.facebook{
+		background-image: url(../images/boton_facebook.png);
+	}
+	
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
+	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/boton_twitter.png);
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		display: none;
+		background-image: url(../images/boton_whatsapp.png);
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+
 .indepth_page_body{
 	bottom: 0px;
 	left: 0px;
@@ -249,11 +310,11 @@
 
 .indepth_parallax_back {
 	height: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	background-size: auto 100%;
+	-webkit-background-size:  auto 100%;
+-moz-background-size:  auto 100%;
+-o-background-size:  auto 100%;
+background-size:  auto 100%;
 	background-color: #000;
 	top: 0px;
 	background-repeat: no-repeat;
@@ -409,19 +470,49 @@ background-size: cover;
 }
 
 #indepth_break_4 .indepth_parallax_back{
-	background-image: url(../images/reservoirdogs6.jpg);
+	background-image: url(../images/MOST-WANTED-4.png);
 
 	background-color: white;
 }
-
 #indepth_break_5 .indepth_parallax_back{
-	background-image: url(../images/reservoirdogs7.jpg);
+	background-image: url(../images/NikeMostWanted.jpg);
+	background-attachment: scroll;
+	background-color: transparent;
+	background-size:auto 100% ;
+	background-position: center center;
+	
+}
 
-	background-color: white;
+#indepth_break_5{
+	background-image: url(../images/pixel.png);
+	background-size: auto 100%;
+	background-repeat: repeat ;
+	background-position: left top;
 }
 
 
+.indepth_texto_imag{
+	width: 100%;
+	min-height: 174px;
+	position: absolute;
+	bottom: 20%;
+}
 
+#indepth_break_1 .indepth_texto_imag{
+	background-image: url(../images/Texto-escenario-1.png);
+}
+
+#indepth_break_2 .indepth_texto_imag{
+	background-image: url(../images/Texto-escenario-2.png);
+}
+
+#indepth_break_3 .indepth_texto_imag{
+	background-image: url(../images/Texto-escenario-3.png);
+}
+
+#indepth_break_4 .indepth_texto_imag{
+	background-image: url(../images/Texto-escenario-4.png);
+}
 
 
 /***** menu******/
