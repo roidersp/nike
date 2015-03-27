@@ -1,125 +1,3 @@
-.indepth_anuncio_ad{ width:100% !important;height: 100% !important;}
-.indepth_anuncio_ad iframe{ width:100% !important;}
-.indepth_anuncio_ad  #google_image_div{
-	width: 100% !important;
-	height: 100% !important;
-}
-
-#nav-bar-wrapper{
-	display: none;
-}
-
-.land{
-	fill: red;
-	fill-opacity: 1;
-	stroke:white;
-	stroke-opacity: 1;
-	stroke-width:0.5;
-	
-}
-
-
-#indepth_editor_profile{
-						min-height:750px;
-					}
-					
-					#indepth_editor_profile .indepth_page_body{
-						display:table;
-					}
-					
-					.rertert{
-						float:left;
-						width: 59%;
-					}
-					
-					.indepth_twitter_editor_header{
-						width:100%;
-						color:white;
-						position:relative;
-						border-bottom: 1px solid black;
-						border-left: 2px solid black;
-						padding: 0 0 5px 0px;
-					}
-					
-					.indepth_twitter_editor_header span{
-						color: black;
-						margin-left: 35%;
-						font-size: 34px;
-						font-family: 'Roboto';
-					}
-					
-					.editor_picture{
-						width: 120px;
-						height: 120px;
-						border-radius: 50%;
-						overflow: hidden;
-						top: 30px;
-						left: 20px;
-						position:absolute;
-						z-index: 100;
-					}
-					
-					.editor_picture img{
-						width: 100%;
-					}
-					
-					.indepth_editor_comm{
-						width: 300px;
-						height: 520px;
-						overflow: scroll;
-						padding: 0 15px;
-						margin-top: 30px;
-						float: right;
-						margin-right: 15px;
-						font-size: 16px;
-					}
-					
-					#indepth_twitter_editor{
-						float:right;
-						border-left:10px solid black;
-						padding:30px 0;
-						padding-left:20px;
-					}
-					
-					.indepth_twitter_editor_header_caja{
-						width:240px;
-						background:black;
-						margin-left:20px;
-						font-size:20px;
-						color:white;
-						padding:10px 20px;
-						position:relative;
-					}
-					
-					.indepth_caja{
-						width:50px;
-						height:50px;
-						border-radius:50%;
-						background:#ffd903;
-						position:absolute;
-						top:-25px;
-						left:-25px;
-					}
-					
-					/*******/
-
-				
-
-
-
-.indepth_page_content .indepth_text .f_letter{
-	font-size: 60px;
-	float: left;
-	line-height: 50px;
-	margin-right: 2px;
-	font-weight: 700;
-}
-
-
-
-.indepth_media_cont{
-	width:100%;display:table;margin-bottom:20px;margin-top: 20px;
-}
 
 .indepth_pages{
 	width: 100%;
@@ -372,6 +250,10 @@
 .indepth_parallax_back {
 	height: 100%;
 	background-size: cover;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 	background-color: #000;
 	top: 0px;
 	background-repeat: no-repeat;
