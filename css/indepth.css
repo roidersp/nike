@@ -322,128 +322,8 @@ background-size:  auto 100%;
 	background-position: center bottom;
 }
 
-.indepth_image_left{
-	float: left;
-	margin-right: 20px;
-	margin-top: 5px;
-	margin-bottom: 20px;
-	text-align: center;
-	width: 400px;
-}
-
-.indepth_image_left img{
-	width: 100%;
-}
-
-.indepth_image_r{
-	float: right ;
-	width: 350px;
-	margin-left: 20px;
-	margin-top: 15px;
-}
-
-.indepth_image_r img{
-	width: 100%;
-}
-
-#indepth_intro{
-}
-
-#indepth_intro .indepth_quote, #indepth_intro .indepth_quote_autor{
-}
-
-#indepth_intro .indepth_quote_container{
-	margin: auto;
-}
-
-#indepth_page1{
-}
-
-#indepth_page3{
-}
-
-#indepth_page4{
-	
-}
-
-#indepth_page4a{
-}
-
-.indepth_page_image .indepth_page_body{
-	width: 800px;
-}
-
- #indepth_page3{
-	background: url(../images/Pixel_Foto2.jpg) center repeat;
-}
-
-#indepth_page6{
-		background-image: url(../images/background.jpg);
-		background-position: center center;
-		background-image: cover;
-		background-attachment: fixed;
-		
-}
 
 
-
-.indepth_text{
-	width: 800px;
-	margin:auto;
-}
-#indepth_page1 .indepth_text{
-	font-weight: 400;
-	line-height: 1.4em;
-	letter-spacing: 0.03em;
-}
-
-#indepth_page4 .indepth_text{
-	font-weight: 300;
-	line-height: 1.4em;
-	letter-spacing: 0.03em;
-}
-
-.indepth_quote_container{
-	width: 700px;
-	margin: auto;
-margin-bottom: 60px;
-color: #878787;
-
-}
-
-.indepth_quote_container hr{
-	width: 50px;
-	margin: center;
-}
- .indepth_quote{
-	font-family: 'Roboto';
-	font-size: 25px;
-	/*border-bottom: 2px solid #000;
-	border-top: 2px solid #000;*/
-	text-transform: uppercase;
-	font-weight: 300;
-	text-align: center;
-	letter-spacing: 0.05em;
-		
-}
-
-.indepth_quote_autor{
-	text-align: right;
-	font-family: 'Roboto';
-	font-size: 14px;
-}
-
-.indepth_image_side{
-	width:45%;
-	margin:0px;
-	float: left;
-}
-
-.indepth_image_side img{
-	width: 100%;
-}
-
-/****DINAMICO****/
 
 .indepth_break .indepth_parallax_back {
 background-size: cover;
@@ -496,6 +376,9 @@ background-size: cover;
 	min-height: 174px;
 	position: absolute;
 	bottom: 20%;
+	background-size: 1920px auto;
+	background-position: center center;
+	
 }
 
 #indepth_break_1 .indepth_texto_imag{
