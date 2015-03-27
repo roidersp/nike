@@ -388,15 +388,15 @@ background-size: cover;
 }
 
 #indepth_break_2 .indepth_texto_imag{
-	background-image: url(../images/Texto-escenario-2.png);
+	background-image: url(../images/texto-escenario-2.png);
 }
 
 #indepth_break_3 .indepth_texto_imag{
-	background-image: url(../images/Texto-escenario-3.png);
+	background-image: url(../images/texto-escenario-3.png);
 }
 
 #indepth_break_4 .indepth_texto_imag{
-	background-image: url(../images/Texto-escenario-4.png);
+	background-image: url(../images/texto-escenario-4.png);
 }
 
 
@@ -622,33 +622,7 @@ background-size: cover;
 	}
 	
 
-	#indepth_cover{
-		height: 650px;
-	}
 	
-	#indepth_cover .indepth_subtitle2 div{
-	padding-right: 10px;
-	width: auto;
-	margin: auto;
-}
-	
-		
-	
-
-	
-	.indepth_break .indepth_title{
-		font-size:46px;
-		text-transform: uppercase;
-		font-weight: 700;
-	}
-	
-	.indepth_libros_controles{
-	display: none;
-}
-.indepth_text{
-	width: 100%;
-}
-
 .indepth_page_image .indepth_page_body{
 	width: 95%;
 }
