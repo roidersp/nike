@@ -357,10 +357,10 @@ background-size: cover;
 	background-color: white;
 }
 #indepth_break_5 .indepth_parallax_back{
-	background-image: url(../images/NikeMostWanted.jpg);
+	background-image: url(../images/nike.png);
 	background-attachment: scroll;
 	background-color: transparent;
-	background-size:auto 100% ;
+	background-size:100% auto;
 	background-position: center center;
 	
 }
@@ -441,6 +441,10 @@ background-size: cover;
 	.indepth_box{
 		margin:  10px 0;
 	}
+	#indepth_break_5 .indepth_parallax_back{
+		background-size: 200% auto;
+	}
+	
 }
 
 @media screen and (max-width:1023px) {
